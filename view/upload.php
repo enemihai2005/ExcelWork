@@ -1,5 +1,8 @@
 <?php
 
+// file used for processing uploads
+// reads the file from $_FILES php global variable
+// is useful
 
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
