@@ -11,8 +11,7 @@ $activeSheetData = $document->getActiveSheet()->toArray(null, true, true, true);
 
 // var_dump($activeSheetData);
 // print_r($activeSheetData);
-echo $activeSheetData[6]['B'].' '.$activeSheetData[6]['C'].'<br/>';
-echo 'The total is: '.$activeSheetData[8]['E'].'<br/>';
+//echo 'The total is: '.$activeSheetData[8]['E'].'<br/>';
 
 
 
