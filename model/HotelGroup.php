@@ -15,16 +15,7 @@ class HotelGroup{
 
     public $id;
     public $name;
-    public $arrival;
-    public $departure;
-    public $dropDate;
-    public $alloc;
-    public $revenueAlloc;
-    public $pickUp;
 
-    public $revenuePickUp;
-    public $left;
-    public $dropped;
 }
 
 

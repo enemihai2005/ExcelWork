@@ -7,6 +7,24 @@
  * To change this template use File | Settings | File Templates.
  */
 
+define('HOST', 'localhost');
+define('USERNAME', 'root');
+define('PASSWORD', '');
+define('DBNAME', 'reservations');
+
+
 function getConnection(){
-    // connection to the DB
+
+
+    // Create connection
+    $conn = new mysqli(HOST, USERNAME, PASSWORD, DBNAME);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    } else{
+        echo ' connection succesful'.'</br>';
+    }
+
+    return $conn;
+
 }

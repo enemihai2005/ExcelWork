@@ -1,18 +1,8 @@
 <?php
-// include 'path/to/PHPExcel/IOFactory.php';
-// require_once dirname(__FILE__) . '/../Classes/PHPExcel.php';
-include dirname(__FILE__) . '/../Classes/PHPExcel/IOFactory.php';
 include '../Classes/Sys.php';
-// Let IOFactory determine the spreadsheet format
-$document = PHPExcel_IOFactory::load('report.xls');
 
-// Get the active sheet as an array
-$activeSheetData = $document->getActiveSheet()->toArray(null, true, true, true);
-
-// var_dump($activeSheetData);
-// print_r($activeSheetData);
-//echo 'The total is: '.$activeSheetData[8]['E'].'<br/>';
-
+require_once '../DataAccessObjects/DAOMySQLHotelGroup.php';
+require_once '../DataAccessObjects/DAOExcelHotelGroup.php';
 
 
 ?>
@@ -44,23 +34,25 @@ if (is_dir($dir)){
 ?>
 
 <?php
+    $titles = array('Group','Name','Arrival','Departure','Drop Date', 'Alloc', 'Revenue Alloc', 'PickUp', 'Revenue Pick Up', 'Left', 'Dropped');
+
     if(isset($_REQUEST['view'])){
         echo 'ISSET';
         $filename = $_REQUEST['view'];
-        $document = PHPExcel_IOFactory::load('uploads/'.$filename);
-        $activeSheetData = $document->getActiveSheet()->toArray(null, true, true, true);
-        $letters = range('A', 'K');
+        $daoExcel = new DAOExcelHotelGroup();
+        $everything = $daoExcel->loadInfoFromExcel($filename); // ugly stuff Excel working stuff
         echo '<table border="1">';
         echo '<tr>';
-        foreach($letters as $letter){
-            echo '<th>'.$letter.'</th>';
+        foreach($titles as $t){
+            echo '<th>'.$t.'</th>';
         }
         echo '</tr>';
 
-        for($i=1; $i<7; $i++){
+
+        foreach($everything as $line){
             echo '<tr>';
-            foreach($letters as $letter){
-                echo '<td>'.$activeSheetData[$i][$letter].'</td>';
+            foreach($line as $column){
+                echo '<td>'.$column.'</td>';
             }
             echo '</tr>';
         }
@@ -71,5 +63,17 @@ if (is_dir($dir)){
         echo '</table>';
 
     }
+
+
+
+echo '<hr/>';
+echo '<h2>Groups from DB(MySQL)</h2>';
+$dao = new DAOMySQLHotelGroup();
+$allHotelGroupsMySQL = $dao->selectAll(); // ugly stuff SQL / MySQL
+foreach($allHotelGroupsMySQL as $gp){
+    echo $gp['id'].' '.$gp['group_name'].'<br/>';
+}
+
+// print_r($allHotelGroupsMySQL);
 ?>
 
