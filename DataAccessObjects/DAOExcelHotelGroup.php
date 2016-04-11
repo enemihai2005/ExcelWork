@@ -36,9 +36,7 @@ class DAOExcelHotelGroup {
                 $hotelGroupsFromExcel[]= $hotelGroup;
 
         }
-
         return $hotelGroupsFromExcel;
-
     }
 
 

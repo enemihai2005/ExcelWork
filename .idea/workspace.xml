@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b618e9f3-5a6a-4bae-84db-7f29830ea139" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php" afterPath="$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/DBUtil.php" afterPath="$PROJECT_DIR$/service/DBUtil.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -13,11 +14,35 @@
     <file path="/HotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456598983837" ignored="false" />
     <file path="/HotelGroupUtil.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1455378527913" ignored="false" />
     <file path="/DBUtil.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456599499100" ignored="false" />
-    <file path="/Dummy.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457197655379" ignored="false" />
+    <file path="/Dummy.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460384198668" ignored="false" />
     <file path="/test.gitignore" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456495503525" ignored="false" />
     <file path="/.gitignore" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456597209684" ignored="false" />
     <file path="/DAOMySQLHotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457039890426" ignored="false" />
     <file path="/DAOExcelHotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457099552059" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/login.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457966065728" ignored="false" />
+    <file path="/login.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457966064357" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/process_login.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457965986258" ignored="false" />
+    <file path="/process_login.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457960653349" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/welcome.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457804499742" ignored="false" />
+    <file path="/welcome.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457804493387" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/dbfunctions.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457805822110" ignored="false" />
+    <file path="/dbfunctions.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457805814562" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/footer.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457807287528" ignored="false" />
+    <file path="/footer.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457806848727" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/useful_functions.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457806751942" ignored="false" />
+    <file path="/useful_functions.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457806748175" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/supersecurestuff.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457961820536" ignored="false" />
+    <file path="/supersecurestuff.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457963599970" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/courses/phpcourse1.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457962231894" ignored="false" />
+    <file path="/phpcourse1.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457962231894" ignored="false" />
+    <file path="/linux.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457962246924" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/courses/linux.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457962246924" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/courses/.htaccess" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457962548467" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/visitorinfo.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457962933100" ignored="false" />
+    <file path="/visitorinfo.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457962851289" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/admin/supersecurestuff.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457963624579" ignored="false" />
+    <file path="$PROJECT_DIR$/../WorkflowClasses/logout.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457965938196" ignored="false" />
+    <file path="/logout.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457965686090" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DAOExcelHotelGroup.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DAOExcelHotelGroup.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="7" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+            <state line="43" column="24" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.3321033">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readReport.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/readReport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="41" selection-start="2341" selection-end="2358" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -54,7 +88,7 @@
       <file leaf-file-name="DAOMySQLHotelGroup.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="37" selection-start="1533" selection-end="1550" vertical-scroll-proportion="0.0">
+            <state line="28" column="16" selection-start="781" selection-end="796" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,16 +97,16 @@
       <file leaf-file-name="HotelGroup.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/HotelGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="17" selection-start="545" selection-end="545" vertical-scroll-proportion="-10.461538">
+            <state line="22" column="13" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBUtil.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DBUtil.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/DBUtil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="11" selection-start="290" selection-end="290" vertical-scroll-proportion="0.25515947">
+            <state line="14" column="10" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,7 +133,7 @@
       <file leaf-file-name="Reservation.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/Reservation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="187" selection-end="380" vertical-scroll-proportion="-9.153846">
+            <state line="22" column="1" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -108,16 +142,7 @@
       <file leaf-file-name="PHPExcel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/PHPExcel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sys.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Sys.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="162" selection-end="162" vertical-scroll-proportion="-6.5384617">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,18 +185,17 @@
         <option value="$PROJECT_DIR$/model/Reservation.php" />
         <option value="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" />
         <option value="$PROJECT_DIR$/model/HotelGroup.php" />
-        <option value="$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php" />
         <option value="$PROJECT_DIR$/view/readReport.php" />
         <option value="$PROJECT_DIR$/service/DBUtil.php" />
+        <option value="$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="285" />
-    <option name="y" value="81" />
-    <option name="width" value="1308" />
-    <option name="height" value="764" />
+    <option name="x" value="-4" />
+    <option name="width" value="1926" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -392,14 +416,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="285" y="81" width="1308" height="764" extended-state="0" />
-    <editor active="true" />
+    <frame x="-4" y="0" width="1926" height="1044" extended-state="0" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24317817" sideWeight="0.67057294" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2027897" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -409,7 +434,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -457,7 +481,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added MySQL and Excel support classes (DAOExcelHotelGroup.php DAOMySQLHotelGroup.php) in order to hide the ugly stuff from the presentation level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before additional modifications" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -474,6 +498,7 @@
     <MESSAGE value="Added new file from PhpStorm" />
     <MESSAGE value="MODIFICATION M" />
     <MESSAGE value="Added MySQL and Excel support classes (DAOExcelHotelGroup.php DAOMySQLHotelGroup.php) in order to hide the ugly stuff from the presentation level" />
+    <MESSAGE value="Before additional modifications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,16 +508,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Classes/Sys.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="12" selection-end="15" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="9" selection-start="12" selection-end="15" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/readReport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="67" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="67" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/PHPExcel/IOFactory.php">
@@ -531,27 +552,6 @@
         <state line="15" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="0.5141129" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/readReport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="65" selection-start="2370" selection-end="2373" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="37" selection-start="1533" selection-end="1550" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="7" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/PHPExcel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
@@ -561,28 +561,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Sys.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="162" selection-end="162" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
+        <state line="10" column="5" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/HotelGroup.php">
+    <entry file="file://$PROJECT_DIR$/view/readReport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="17" selection-start="545" selection-end="545" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="187" selection-end="380" vertical-scroll-proportion="-9.153846">
+        <state line="90" column="41" selection-start="2341" selection-end="2358" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/DBUtil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="290" selection-end="290" vertical-scroll-proportion="0.25515947">
+        <state line="14" column="10" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="1" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/HotelGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="16" selection-start="781" selection-end="796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.3321033">
           <folding />
         </state>
       </provider>

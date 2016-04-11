@@ -12,7 +12,7 @@ define('USERNAME', 'root');
 define('PASSWORD', '');
 define('DBNAME', 'reservations');
 
-//bla test 
+//bla test
 function getConnection(){
 
 
