@@ -22,7 +22,7 @@ function getConnection(){
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     } else{
-        echo ' connection succesful'.'</br>';
+        // echo ' connection succesful'.'</br>';
     }
 
     return $conn;

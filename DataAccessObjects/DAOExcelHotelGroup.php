@@ -24,7 +24,7 @@ class DAOExcelHotelGroup {
      * Method reading information in a XLS file and returns an array of HotelGroup objects (for convenience, easier to parse)
      * @param $fileName
      * @return array
-     */
+
     public function loadFromExcel($fileName){
 
         $hotelGroupsFromExcel = array();
@@ -38,7 +38,7 @@ class DAOExcelHotelGroup {
         }
         return $hotelGroupsFromExcel;
     }
-
+     */
 
     /**
      * @param $fileName the name of the XLS file which will be used (from the uploads directory)
@@ -76,5 +76,22 @@ class DAOExcelHotelGroup {
         $group->id = $row[0];
         $group->name = $row[1];
         return $group;
+    }
+
+    public function getReservationFromExcelROW($row){
+        $reservation = new Reservation();
+        // $row[2]
+        // arrival, departure, drop date, alloc, revenue alloc, pickup, revenue pick up, left, dropped
+        $reservation->arrival = $row[2];
+        $reservation->departure = $row[3];
+        $reservation->dropDate = $row[4];
+        $reservation->alloc = $row[5];
+        $reservation->revenueAlloc = $row[6];
+        $reservation->pickUp = $row[7];
+        $reservation->revenuePickUp = $row[8];
+        $reservation->left = $row[9];
+        $reservation->dropped = $row[10];
+
+        return $reservation;
     }
 }

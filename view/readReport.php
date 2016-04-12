@@ -88,11 +88,14 @@ if (is_dir($dir)){
         $filename = $_REQUEST['file_to_db'];
         $daoExcel = new DAOExcelHotelGroup();
         $daoMySQL = new DAOMySQLHotelGroup();
-        $everything = $daoExcel->loadInfoFromExcel($filename, 100);
+        $everything = $daoExcel->loadInfoFromExcel($filename, 500);
         foreach($everything as $line){
             $group = $daoExcel->getGroupFromExcelROW($line);
             // print_r($group);
+            $reservation = $daoExcel->getReservationFromExcelROW($line);
             $daoMySQL->saveHGToDB_withID($group);
+            $reservation->groupName = $group->name;
+            $daoMySQL->saveReservationToDB($reservation);
 
 
         }

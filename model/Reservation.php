@@ -20,4 +20,9 @@ class Reservation {
     public $left;
     public $dropped;
 
+    // modelled the g
+    public $groupName;
+
+
+
 }

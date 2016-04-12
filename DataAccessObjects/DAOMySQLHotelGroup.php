@@ -9,6 +9,7 @@
 
 require_once '../service/DBUtil.php';
 require_once '../model/HotelGroup.php';
+require_once '../model/Reservation.php';
 
 /**
  * Class DAOMySQLHotelGroup
@@ -55,6 +56,53 @@ class DAOMySQLHotelGroup {
         $groupName = $group->name;
         $groupId = $group->id;
         $query = "INSERT INTO groups(id, group_name) VALUES($groupId, '$groupName')";
+        $conn->query($query);
+    }
+
+    public function excelDateToMySQLDate($d){
+        $dateInt = (int)$d;
+        return date('Y-m-d',strtotime('1899-12-31+'.($dateInt-1).' days'));
+
+    }
+
+    // $1,476.11 to 1476
+    public function getMoneyFromExcelColumn($excelMoney){
+        echo 'ABOUT TO CONVERT TO A DOUBLE VALUE(ceva.ceva) THE SUM: '.$excelMoney.'<br/>';
+        if(isset($excelMoney)){
+            $excelMoney = str_replace("$", "", $excelMoney);
+
+            $bigMoney = explode(".", $excelMoney);
+            print_r($bigMoney);
+            $dollars = $bigMoney[0];
+            $cents = $bigMoney[1];
+            $noCommas = str_replace(",", "", $dollars);
+
+            $moneyAsDouble = (double)"$noCommas.$cents";
+            echo 'CONVERTED TO DOUBLE: '.$moneyAsDouble.'<br/><br/>';
+            return $moneyAsDouble;
+        }
+        return 0;
+    }
+
+    public function saveReservationToDB(Reservation $reservation){
+        $conn = getConnection();
+        $arrival = $this->excelDateToMySQLDate($reservation->arrival);
+        $departure = $this->excelDateToMySQLDate($reservation->departure);
+        $group_name = $reservation->groupName;
+        $alloc = $reservation->alloc;
+        $revenue_alloc = $reservation->revenueAlloc;  // money
+        $revenue_alloc = $this->getMoneyFromExcelColumn($revenue_alloc);
+        $pick_up = $reservation->pickUp;
+        $drop_date = $this->excelDateToMySQLDate($reservation->dropDate);
+        $revenue_pick_up = $reservation->revenuePickUp;  // money
+        $revenue_pick_up = $this->getMoneyFromExcelColumn($revenue_pick_up);
+        $left_  = $reservation->left;
+        $dropped = $reservation->dropped;
+
+        $query = "INSERT INTO reservations(arrival, departure, group_name, alloc, revenue_alloc, pick_up, drop_date, revenue_pick_up, left_, dropped)
+                VALUES ('$arrival', '$departure', '$group_name', $alloc, $revenue_alloc, $pick_up, '$drop_date', $revenue_pick_up, $left_, $dropped)";
+        echo 'ABOUT TO EXECUTE QUERY: ';
+        print_r($query);
         $conn->query($query);
     }
 
