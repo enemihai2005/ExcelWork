@@ -143,4 +143,19 @@ class DAOMySQLHotelGroup {
         $query = "DELETE FROM groups WHERE id = $id";
         $conn->query($query);
     }
+
+    /* STATISTICS */
+    public function getReservationsInfo($groupName){
+        // select * from reservations where group_name= '2Topic in Health' order by arrival;
+        $conn = getConnection();
+        $query = "select * from reservations where group_name= '$groupName' order by arrival";
+        $results = $conn->query($query);
+        $reservationsArray = array();
+        while(($reservation = $results->fetch_assoc()) != null){
+            $reservationsArray[] = $reservation;
+        }
+        return $reservationsArray;
+
+    }
+
 }
