@@ -1,0 +1,86 @@
+-- MySQL dump 10.13  Distrib 5.6.17, for Win64 (x86_64)
+--
+-- Host: localhost    Database: reservations
+-- ------------------------------------------------------
+-- Server version	5.6.17
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `groups`
+--
+
+DROP TABLE IF EXISTS `groups`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `groups` (
+  `id` int(11) DEFAULT NULL,
+  `group_name` varchar(50) NOT NULL,
+  PRIMARY KEY (`group_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `groups`
+--
+
+LOCK TABLES `groups` WRITE;
+/*!40000 ALTER TABLE `groups` DISABLE KEYS */;
+INSERT INTO `groups` VALUES (1201,'#NEIAS'),(1174,'2ACE-USA'),(1160,'2BBTS Ski Camp'),(1195,'2BU 5630'),(1194,'2Burke Mtn Academy'),(1180,'2Central - Clemson'),(1140,'2Cornerstone Retreat'),(1198,'2EP 7050'),(1205,'2EP 7130 Arts in Edu.'),(1203,'2Integrating 9/25/09'),(1270,'2Jumpstart Camp'),(1111,'2MBA 01/16/09'),(1223,'2NH Library'),(1251,'2NH Library Assoc'),(1080,'2NH Quilters Assoc'),(1191,'2NHACCE'),(1085,'2PATH 5/1'),(1238,'2PSU - BU5630'),(1186,'2PSU 5230'),(1185,'2PSU 5520'),(1165,'2PSU 5580'),(1164,'2PSU 5690'),(1241,'2PSU 5700 12/18'),(1163,'2PSU-5160'),(1196,'2PSU-EP 7020'),(1192,'2PSU-Marketing'),(1074,'2PSU-MBA 1/9'),(1202,'2Puppetry 9/18/09'),(1204,'2Queen of the World'),(1175,'2RH White 2009'),(1145,'2SONH 09'),(1193,'2SONH 2009'),(1147,'2Spring Quilters 09'),(1214,'2Summer SONH'),(1089,'2Topic in Health'),(1200,'2White Ski Trp'),(1250,'2Wuoti Quilters'),(1152,'J3 Eastern Finals');
+/*!40000 ALTER TABLE `groups` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `reservations`
+--
+
+DROP TABLE IF EXISTS `reservations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `reservations` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `arrival` date DEFAULT NULL,
+  `departure` date DEFAULT NULL,
+  `group_name` varchar(50) DEFAULT NULL,
+  `alloc` int(11) DEFAULT NULL,
+  `revenue_alloc` double DEFAULT NULL,
+  `pick_up` int(11) DEFAULT NULL,
+  `drop_date` date DEFAULT NULL,
+  `revenue_pick_up` double DEFAULT NULL,
+  `left_` int(11) DEFAULT NULL,
+  `dropped` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `unique_index` (`group_name`,`arrival`,`departure`),
+  CONSTRAINT `fk_grp3` FOREIGN KEY (`group_name`) REFERENCES `groups` (`group_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=157 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `reservations`
+--
+
+LOCK TABLES `reservations` WRITE;
+/*!40000 ALTER TABLE `reservations` DISABLE KEYS */;
+INSERT INTO `reservations` VALUES (118,'2009-01-08','2009-03-27','2PSU-MBA 1/9',9,1062.54,0,'2009-01-08',0,0,9),(119,'2009-01-11','2009-03-27','2BBTS Ski Camp',23,1955,0,'2009-01-11',0,0,23),(120,'2009-01-15','2009-03-27','2MBA 01/16/09',9,1260,3,'2009-01-15',420,0,6),(121,'2009-01-21','2009-03-27','2Burke Mtn Academy',16,1569.6,0,'2009-01-21',0,0,16),(122,'2009-02-05','2009-03-27','2ACE-USA',14,1373.4,7,'2009-02-05',686.7,0,7),(123,'2009-02-23','2009-03-27','2White Ski Trp',12,1068,4,'2009-02-23',356,0,8),(124,'2009-02-26','2010-01-20','2SONH 09',91,5448.63,81,'2010-01-20',4866.39,0,10),(125,'2009-03-03','2010-01-20','J3 Eastern Finals',44,5468.4,0,'2009-03-03',0,0,44),(126,'2009-03-17','2009-03-27','2RH White 2009',48,4272,33,'2009-03-17',2937,0,15),(127,'2009-04-02','2010-01-20','2PSU-Marketing',45,4236.56,19,'2009-04-02',1777.7,0,26),(128,'2009-04-22','2010-01-20','2Spring Quilters 09',50,4058.36,1,'2009-04-22',85.18,0,49),(129,'2009-04-24','2010-01-20','2Cornerstone Retreat',32,2240,0,'2009-04-24',0,0,32),(130,'2009-05-01','2010-01-20','2PATH 5/1',20,1660,2,'2009-05-01',166,0,18),(131,'2009-05-03','2010-01-20','2NHACCE',41,2829,1,'2009-05-03',69,0,40),(132,'2009-05-05','2010-07-13','2NH Library',18,1350,6,'2009-05-05',450,0,12),(133,'2009-05-15','2010-01-20','2NH Quilters Assoc',16,1481.44,0,'2009-05-15',0,0,16),(134,'2009-05-29','2010-01-20','2Topic in Health',24,1992,10,'2009-05-29',830,0,14),(135,'2009-06-04','2010-01-20','2PSU-5160',17,1607.69,3,'2009-06-04',283.71,0,14),(136,'2009-06-11','2010-01-20','2PSU 5690',10,945.7,0,'2009-06-11',0,0,10),(137,'2009-06-11','2010-01-20','2PSU 5580',24,2269.68,14,'2009-06-11',1323.98,0,10),(138,'2009-06-14','2010-07-13','2Queen of the World',24,1416,0,'2009-06-14',0,0,24),(139,'2009-07-16','2010-07-13','2PSU-EP 7020',26,2458.82,0,'2009-07-16',0,0,26),(140,'2009-07-29','2010-07-13','2PSU 5520',25,2289.75,3,'2009-07-29',274.77,0,22),(141,'2009-07-30','2010-07-13','2PSU 5230',11,1040.27,0,'2009-07-30',0,0,11),(142,'2009-08-03','2010-07-13','2EP 7050',39,3688.23,0,'2009-08-03',0,0,39),(143,'2009-08-13','2010-07-13','2BU 5630',11,1040.27,1,'2009-08-13',94.57,0,10),(144,'2009-08-30','2010-07-13','2Summer SONH',12,708,0,'2009-08-30',0,0,12),(145,'2009-09-13','2010-07-13','#NEIAS',50,3808.7,21,'2009-09-13',1625,0,29),(146,'2009-09-18','2010-07-13','2Puppetry 9/18/09',10,945.7,0,'2009-09-18',0,0,10),(147,'2009-09-23','2010-07-13','2NH Library Assoc',10,750,6,'2009-09-23',450,0,4),(148,'2009-09-24','2010-07-13','2Integrating 9/25/09',17,1607.69,1,'2009-09-24',94.57,0,16),(149,'2009-10-23','2010-07-13','2Central - Clemson',34,2346,18,'2009-10-23',1242,0,16),(150,'2009-10-29','2010-07-13','2Wuoti Quilters',23,1899.11,15,'2009-10-29',1238.55,0,8),(151,'2009-11-05','2010-07-13','2EP 7130 Arts in Edu.',17,1410.24,6,'2009-11-05',498,0,11),(152,'2009-11-05','2010-07-13','2PSU - BU5630',13,1079,5,'2009-11-05',415,0,8),(153,'2009-11-12','2010-01-20','2Topic in Health',22,1824.48,10,'2009-11-12',828.48,0,12),(154,'2009-12-03','2010-07-13','2SONH 2009',54,4100.22,3,'2009-12-03',227.79,0,51),(155,'2009-12-15','2010-07-13','2Jumpstart Camp',24,2021.28,0,'2009-12-15',0,0,24),(156,'2009-12-17','2010-07-13','2PSU 5700 12/18',47,3900.24,7,'2009-12-17',580.24,0,40);
+/*!40000 ALTER TABLE `reservations` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-04-15 11:15:57
