@@ -24,7 +24,7 @@ class DAOMySQLHotelGroup {
      * SELECT all informaton pertaining to groups from MySQL's 'groups' table and return an array
      * @return array
      */
-    public  function selectAll(){
+    public  function selectAllGroups(){
         $conn = getConnection();
         $groupsCursor = $conn->query("SELECT * FROM groups");
         $groupsArray = array();
@@ -33,6 +33,33 @@ class DAOMySQLHotelGroup {
         }
         return $groupsArray;
     }
+
+    // new 12-04-2016
+    public function selectAllReservations(){
+        $conn = getConnection();
+        $reservationsCursor = $conn->query("SELECT * FROM reservations");
+        $reservationsArray = array();
+        while(($reservation = $reservationsCursor->fetch_assoc()) != null){
+            $reservationsArray[] = $reservation;
+        }
+
+        return $reservationsArray;
+    }
+
+    public function selectReservationsForGroup($groupName){
+        $conn = getConnection();
+        $query = "SELECT * FROM reservations WHERE group_name = '".$groupName."'";
+        echo 'QUERY LOOKS LIKE: '.$query.'<br/>';
+        $reservationsCursor = $conn->query($query);
+        $reservationsArray = array();
+        while(($reservation = $reservationsCursor->fetch_assoc()) != null){
+            $reservationsArray[] = $reservation;
+        }
+        return $reservationsArray;
+    }
+
+
+    // END new 12-04-2016
 
     /**
      * Save a hotel group object to MySQL

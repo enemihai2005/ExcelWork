@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b618e9f3-5a6a-4bae-84db-7f29830ea139" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php" afterPath="$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/viewgroup.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" afterPath="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service/DBUtil.php" afterPath="$PROJECT_DIR$/service/DBUtil.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Reservation.php" afterPath="$PROJECT_DIR$/model/Reservation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/readReport.php" afterPath="$PROJECT_DIR$/view/readReport.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -13,14 +11,14 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/details.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1455213372076" ignored="false" />
     <file path="/Sys.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1455375554672" ignored="false" />
-    <file path="/readReport.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460390724573" ignored="false" />
+    <file path="/readReport.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460465297302" ignored="false" />
     <file path="/HotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456598983837" ignored="false" />
     <file path="/HotelGroupUtil.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1455378527913" ignored="false" />
     <file path="/DBUtil.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456599499100" ignored="false" />
-    <file path="/Dummy.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460463301095" ignored="false" />
+    <file path="/Dummy.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460726564807" ignored="false" />
     <file path="/test.gitignore" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456495503525" ignored="false" />
     <file path="/.gitignore" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456597209684" ignored="false" />
-    <file path="/DAOMySQLHotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460390311916" ignored="false" />
+    <file path="/DAOMySQLHotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460465887768" ignored="false" />
     <file path="/DAOExcelHotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460388394398" ignored="false" />
     <file path="$PROJECT_DIR$/../WorkflowClasses/login.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457966065728" ignored="false" />
     <file path="/login.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457966064357" ignored="false" />
@@ -80,23 +78,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readReport.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/readReport.php">
+      <file leaf-file-name="DAOMySQLHotelGroup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.20503597">
+            <state line="62" column="0" selection-start="1901" selection-end="1901" vertical-scroll-proportion="-8.5">
               <folding>
-                <marker date="1460390726155" expanded="false" signature="2780:2792" placeholder="..." />
+                <marker date="1460465892890" expanded="true" signature="4801:5015" placeholder="/** * Method..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DAOMySQLHotelGroup.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
+      <file leaf-file-name="viewgroup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/viewgroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="18" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readReport.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/view/readReport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="118" column="0" selection-start="3370" selection-end="3370" vertical-scroll-proportion="0.026796589">
               <folding>
-                <marker date="1460390325582" expanded="true" signature="3884:4098" placeholder="/** * Method..." />
+                <marker date="1460465969323" expanded="false" signature="2780:2792" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -115,15 +122,6 @@
         <entry file="file://$PROJECT_DIR$/service/DBUtil.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="11" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -194,8 +192,8 @@
         <option value="$PROJECT_DIR$/service/DBUtil.php" />
         <option value="$PROJECT_DIR$/model/Reservation.php" />
         <option value="$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php" />
-        <option value="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" />
         <option value="$PROJECT_DIR$/view/readReport.php" />
+        <option value="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" />
       </list>
     </option>
   </component>
@@ -424,7 +422,11 @@
       <created>1460384237566</created>
       <updated>1460384237566</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="After reservations added">
+      <created>1460463354972</created>
+      <updated>1460463354972</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -435,7 +437,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20493563" sideWeight="0.67155755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20708154" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,7 +446,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -493,7 +495,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before additional modifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="After reservations added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -511,6 +513,7 @@
     <MESSAGE value="MODIFICATION M" />
     <MESSAGE value="Added MySQL and Excel support classes (DAOExcelHotelGroup.php DAOMySQLHotelGroup.php) in order to hide the ugly stuff from the presentation level" />
     <MESSAGE value="Before additional modifications" />
+    <MESSAGE value="After reservations added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -518,11 +521,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classes/Sys.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="12" selection-end="15" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/readReport.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="67" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" />
@@ -597,15 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="18" selection-start="3836" selection-end="3836" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1460390325582" expanded="true" signature="3884:4098" placeholder="/** * Method..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="28" selection-start="3206" selection-end="3206" vertical-scroll-proportion="0.0">
@@ -613,11 +602,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="1901" selection-end="1901" vertical-scroll-proportion="-8.5">
+          <folding>
+            <marker date="1460465892890" expanded="true" signature="4801:5015" placeholder="/** * Method..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewgroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="10" selection-end="10" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/readReport.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="1891" selection-end="1891" vertical-scroll-proportion="0.20503597">
+        <state line="118" column="0" selection-start="3370" selection-end="3370" vertical-scroll-proportion="0.026796589">
           <folding>
-            <marker date="1460390726155" expanded="false" signature="2780:2792" placeholder="..." />
+            <marker date="1460465969323" expanded="false" signature="2780:2792" placeholder="..." />
           </folding>
         </state>
       </provider>
