@@ -104,8 +104,21 @@ if (is_dir($dir)){
 
 
 
-echo '<hr/>';
-echo '<h2>Groups from DB (MySQL)</h2>';
+?>
+<hr/>
+
+<h2>Print cumulated statistics for group containing name:</h2>
+<form action="testgraph.php">
+    <input type="text" name="viewreservationsfor"/>
+    <input type="hidden" name="approximate"/> <br/>
+    Inhouse? <input type="checkbox" name="inhouse"/><br/>
+    <input type="submit"/>
+
+</form>
+
+<h2>Groups from DB (MySQL)</h2>
+<?php
+
 $dao = new DAOMySQLHotelGroup();
 $allHotelGroupsMySQL = $dao->selectAllGroups(); // ugly stuff SQL / MySQL
 echo '<ul>';

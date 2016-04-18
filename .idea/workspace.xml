@@ -2,58 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b618e9f3-5a6a-4bae-84db-7f29830ea139" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/.codeclimate.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/.eslintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/docs/00-Getting-Started.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/docs/01-Line-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/docs/02-Bar-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/docs/03-Radar-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/docs/04-Polar-Area-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/docs/05-Pie-Doughnut-Chart.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/docs/06-Advanced.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/docs/07-Notes.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/src/Chart.Bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/src/Chart.Core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/src/Chart.Doughnut.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/src/Chart.Line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/src/Chart.PolarArea.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/src/Chart.Radar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/Chart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/doughnut.color.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/doughnut.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/line-customTooltips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/line.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/pie-customTooltips.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/pie.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/polar-area.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/Chart.js-master/samples/radar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SQL/reservations.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/GraphService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service/GroupServiceCriteria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" afterPath="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/readReport.php" afterPath="$PROJECT_DIR$/view/readReport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/testgraph.php" afterPath="$PROJECT_DIR$/view/testgraph.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExcelWork.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/details.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1455213372076" ignored="false" />
     <file path="/Sys.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1455375554672" ignored="false" />
-    <file path="/readReport.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460465297302" ignored="false" />
+    <file path="/readReport.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460825075958" ignored="false" />
     <file path="/HotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456598983837" ignored="false" />
     <file path="/HotelGroupUtil.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1455378527913" ignored="false" />
     <file path="/DBUtil.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456599499100" ignored="false" />
-    <file path="/Dummy.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460733390293" ignored="false" />
+    <file path="/Dummy.txt" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460989368553" ignored="false" />
     <file path="/test.gitignore" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456495503525" ignored="false" />
     <file path="/.gitignore" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1456597209684" ignored="false" />
-    <file path="/DAOMySQLHotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460731942320" ignored="false" />
+    <file path="/DAOMySQLHotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460825372698" ignored="false" />
     <file path="/DAOExcelHotelGroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460388394398" ignored="false" />
     <file path="$PROJECT_DIR$/../WorkflowClasses/login.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457966065728" ignored="false" />
     <file path="/login.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1457966064357" ignored="false" />
@@ -82,7 +49,8 @@
     <file path="/Reservation.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460386421881" ignored="false" />
     <file path="/viewgroup.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460728276111" ignored="false" />
     <file path="/testgraph.html" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460731603223" ignored="false" />
-    <file path="/testgraph.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460732585872" ignored="false" />
+    <file path="/testgraph.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460825231251" ignored="false" />
+    <file path="/GraphService.php" changelist="b618e9f3-5a6a-4bae-84db-7f29830ea139" time="1460990164839" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,68 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DAOExcelHotelGroup.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DAOExcelHotelGroup.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="28" selection-start="3206" selection-end="3206" vertical-scroll-proportion="-26.846153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAOMySQLHotelGroup.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="39" selection-start="5219" selection-end="5238" vertical-scroll-proportion="-19.653847">
-              <folding>
-                <marker date="1460732042432" expanded="true" signature="4801:5015" placeholder="/** * Method..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewgroup.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/viewgroup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="34" selection-start="433" selection-end="584" vertical-scroll-proportion="-19.153847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readReport.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/readReport.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="144" selection-start="981" selection-end="1121" vertical-scroll-proportion="-4.576923">
-              <folding>
-                <marker date="1460732777977" expanded="true" signature="2780:2792" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testgraph.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/testgraph.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="6" selection-start="405" selection-end="405" vertical-scroll-proportion="-8.692307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="backup.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SQL/backup.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="-5.1">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tables.sql" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SQL/tables.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="68" column="86" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.30695444">
               <folding />
             </state>
           </provider>
@@ -177,7 +87,7 @@
       <file leaf-file-name="HotelGroup.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/HotelGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="13" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="512" selection-end="545" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -186,16 +96,79 @@
       <file leaf-file-name="Reservation.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/Reservation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="183" selection-end="426" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotelGroupUtil.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/HotelGroupUtil.php">
+      <file leaf-file-name="DAOMySQLHotelGroup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="113" column="39" selection-start="3519" selection-end="3538" vertical-scroll-proportion="-17.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphService.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/GraphService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupServiceCriteria.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service/GroupServiceCriteria.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="1" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.2692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewgroup.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/viewgroup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readReport.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/readReport.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="113" column="57" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1460825076704" expanded="true" signature="2780:2792" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testgraph.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/testgraph.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="83" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1460825241485" expanded="true" signature="1329:1593" placeholder="..." />
+                <marker date="1460825241485" expanded="true" signature="1336:1427" placeholder="..." />
+                <marker date="1460825241485" expanded="true" signature="1434:1593" placeholder="..." />
+                <marker date="1460825241485" expanded="true" signature="1458:1549" placeholder="..." />
+                <marker date="1460825241485" expanded="true" signature="1468:1542" placeholder="..." />
+                <marker date="1460825241485" expanded="true" signature="1562:1593" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testgraph.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/testgraph.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="14" selection-start="0" selection-end="1833" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/details.php" />
         <option value="$PROJECT_DIR$/view/details.php" />
         <option value="$PROJECT_DIR$/Classes/Sys.php" />
         <option value="$PROJECT_DIR$/service/HotelGroupUtil.php" />
@@ -232,9 +204,10 @@
         <option value="$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php" />
         <option value="$PROJECT_DIR$/view/viewgroup.php" />
         <option value="$PROJECT_DIR$/view/testgraph.html" />
-        <option value="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" />
         <option value="$PROJECT_DIR$/view/readReport.php" />
         <option value="$PROJECT_DIR$/view/testgraph.php" />
+        <option value="$PROJECT_DIR$/service/GraphService.php" />
+        <option value="$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php" />
       </list>
     </option>
   </component>
@@ -270,6 +243,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,42 +273,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExcelWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExcelWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExcelWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExcelWork" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chart.js-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,7 +348,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,19 +431,22 @@
       <created>1460733397493</created>
       <updated>1460733397493</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Before graphs 2">
+      <created>1460733564603</created>
+      <updated>1460733564603</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1926" height="1044" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973504" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20922747" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21351932" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -516,6 +456,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -563,7 +504,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before graphs 2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -584,6 +525,7 @@
     <MESSAGE value="After reservations added" />
     <MESSAGE value="Before viewgroup page added" />
     <MESSAGE value="Before graphs" />
+    <MESSAGE value="Before graphs 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,23 +533,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="71" selection-start="206" selection-end="206" vertical-scroll-proportion="-9.807693" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/PHPExcel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Sys.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="5" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" />
@@ -615,23 +540,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/DBUtil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="11" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Reservation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/HotelGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="11" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/HotelGroupUtil.php">
@@ -641,57 +550,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/testgraph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="0" selection-end="1833" vertical-scroll-proportion="-11.115385">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="39" selection-start="5219" selection-end="5238" vertical-scroll-proportion="-19.653847">
-          <folding>
-            <marker date="1460732042432" expanded="true" signature="4801:5015" placeholder="/** * Method..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="28" selection-start="3206" selection-end="3206" vertical-scroll-proportion="-26.846153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/readReport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="144" selection-start="981" selection-end="1121" vertical-scroll-proportion="-4.576923">
-          <folding>
-            <marker date="1460732777977" expanded="true" signature="2780:2792" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/viewgroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="34" selection-start="433" selection-end="584" vertical-scroll-proportion="-19.153847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/testgraph.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="405" selection-end="405" vertical-scroll-proportion="-8.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SQL/backup.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="-5.1">
+        <state line="15" column="14" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -699,6 +560,92 @@
     <entry file="file://$PROJECT_DIR$/SQL/tables.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/testgraph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="0" selection-end="1833" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/viewgroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/readReport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="57" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1460825076704" expanded="true" signature="2780:2792" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/testgraph.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="83" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1460825241485" expanded="true" signature="1329:1593" placeholder="..." />
+            <marker date="1460825241485" expanded="true" signature="1336:1427" placeholder="..." />
+            <marker date="1460825241485" expanded="true" signature="1434:1593" placeholder="..." />
+            <marker date="1460825241485" expanded="true" signature="1458:1549" placeholder="..." />
+            <marker date="1460825241485" expanded="true" signature="1468:1542" placeholder="..." />
+            <marker date="1460825241485" expanded="true" signature="1562:1593" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/GraphService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/GroupServiceCriteria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/PHPExcel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="5" vertical-scroll-proportion="-4.464029">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/HotelGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="512" selection-end="545" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Reservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="183" selection-end="426" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOMySQLHotelGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="39" selection-start="3519" selection-end="3538" vertical-scroll-proportion="-17.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataAccessObjects/DAOExcelHotelGroup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="86" selection-start="2287" selection-end="2287" vertical-scroll-proportion="0.30695444">
           <folding />
         </state>
       </provider>

@@ -49,7 +49,7 @@ class DAOMySQLHotelGroup {
     public function selectReservationsForGroup($groupName){
         $conn = getConnection();
         $query = "SELECT * FROM reservations WHERE group_name = '".$groupName."'";
-        echo 'QUERY LOOKS LIKE: '.$query.'<br/>';
+        // echo 'QUERY LOOKS LIKE: '.$query.'<br/>';
         $reservationsCursor = $conn->query($query);
         $reservationsArray = array();
         while(($reservation = $reservationsCursor->fetch_assoc()) != null){
@@ -94,7 +94,7 @@ class DAOMySQLHotelGroup {
 
     // $1,476.11 to 1476
     public function getMoneyFromExcelColumn($excelMoney){
-        echo 'ABOUT TO CONVERT TO A DOUBLE VALUE(ceva.ceva) THE SUM: '.$excelMoney.'<br/>';
+
         if(isset($excelMoney)){
             $excelMoney = str_replace("$", "", $excelMoney);
 
@@ -155,7 +155,27 @@ class DAOMySQLHotelGroup {
             $reservationsArray[] = $reservation;
         }
         return $reservationsArray;
+    }
 
+
+    // select fro groups like ACE-USA ACE - USA
+    public function getReservationsInfoAggregated($groupName, $inhouse = false){
+        // select * from reservations where group_name= '2Topic in Health' order by arrival;
+        $conn = getConnection();
+        if($inhouse){
+            $query = "select * from reservations where group_name like '%$groupName%' and group_name like '%#%' order by arrival";
+           // echo 'INHOUSE !!!!<br/>';
+        }else{
+            $query = "select * from reservations where group_name like '%$groupName%' and group_name not like '%#%' order by arrival";
+            // echo 'NO INHOUSE !!!!<br/>';
+        }
+
+        $results = $conn->query($query);
+        $reservationsArray = array();
+        while(($reservation = $results->fetch_assoc()) != null){
+            $reservationsArray[] = $reservation;
+        }
+        return $reservationsArray;
     }
 
 }
